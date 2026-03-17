@@ -45,3 +45,13 @@ async def predict(file: UploadFile = File(...)):
         "label": label,
         "confidence": round(score * 100, 2)
     }
+from fastapi.middleware.cors import CORSMiddleware
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
+

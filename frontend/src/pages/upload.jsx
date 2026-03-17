@@ -7,7 +7,7 @@ export default function Upload({ setPage, setResult }) {
     const formData = new FormData()
     formData.append('file', file)
 
-    const res = await fetch('http://127.0.0.1:8000/predict', {
+    const res = await fetch('https://classificador-alimentos-ai.onrender.com/predict', {
       method: 'POST',
       body: formData
     })
