@@ -135,7 +135,7 @@ uvicorn main:app --reload
 
 Servidor rodando em:
 
-[text](https://classificador-alimentos-ai.onrender.com)
+https://classificador-alimentos-ai.onrender.com
 
 ---
 
@@ -147,4 +147,4 @@ npm run dev
 
 
 Acesse no navegador:
-[text](http://localhost:5173)
+https://classificador-alimentos-ai-1.onrender.com
