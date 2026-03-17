@@ -10,7 +10,5 @@ export default function App() {
   if (page === 'home') return <Home setPage={setPage} />
   if (page === 'upload') return <Upload setPage={setPage} setResult={setResult} />
   if (page === 'result') return <Result setPage={setPage} result={result} />
-
-  // 🔥 fallback (ESSENCIAL)
-  return <Home setPage={setPage} />
+  return <h1>FUNCIONANDO 🔥</h1>
 }
